@@ -1,0 +1,226 @@
+# Следующая команда работает для загрузки при использовании Git для Windows:
+# curl -LOf http://gist.githubusercontent.com/kmorcinek/2710267/raw/.gitignore
+#
+# Скачайте этот файл с помощью PowerShell версии 3 в Windows со следующей командой:
+# Invoke-WebRequest https://gist.githubusercontent.com/kmorcinek/2710267/raw/ -OutFile .gitignore
+#
+# или wget:
+# wget --no-check-certificate http://gist.githubusercontent.com/kmorcinek/2710267/raw/.gitignore
+
+# Пользовательские файлы
+*.suo
+*.пользователь
+*.sln.docутверждает
+
+# Результаты сборки
+[Дд] ebug/
+[Рр] Элиз/
+х64/
+[Вв] в/
+[Оо] БЖ/
+# Папка build в настоящее время используется для скриптов сборки, и ее не следует игнорировать
+#строить/
+
+# Пакеты NuGet
+*.nupkg
+# Папку packages можно игнорировать из-за восстановления пакетов
+**/Пакеты/*
+# за исключением build/, который используется в качестве цели MSBuild.
+!**/пакеты/сборка/
+# Раскомментируйте, если это необходимо, однако, как правило, он будет восстановлен при необходимости
+#!**/packages/repositories.config
+
+# Результаты теста MSTest
+[Тт] est[Rr]esult*/
+[Вв] uild[Ll]og.*
+
+*_i.c
+*_p.c
+*.тип
+*.мета
+*.obj
+*Файл .pch
+*PDB-файл
+*PGC-файл
+*PGD-файл
+*.rsp
+*Домен .sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.журнал
+*VSPSCC
+*.vssscc
+.Строит
+*PIDB-файл
+*Домен SCC
+
+# Файлы кэша Visual C++
+ИПЧ/
+*.aps
+*.ncb
+*.opensdf
+*Домен .sdf
+*.cacheфайл
+
+# Профилировщик Visual Studio
+*.psess
+*Файл VSP
+*.vspx
+
+# Инструментарий автоматизации наведения
+*.gpState
+
+# ReSharper — это надстройка для программирования .NET
+_ReSharper*/
+*См.[Рр] e[Ss]harper
+
+# TeamCity — это надстройка для сборки
+_TeamCity*
+
+# DotCover — это инструмент для покрытия кода
+*.dotОбложка
+
+# NCrunch
+*.ncrunch*
+См.*хруст*.local.xml
+
+# Выходная папка installshield
+[Эээ xpress/
+
+# DocProject — это надстройка для генератора документации
+DocProject/buildhelp/
+DocProject/Справка/*. ХТ
+DocProject/Справка/*. Горизонталь x C
+DocProject/Справка/*.hhc
+DocProject/Справка/*.hhk
+DocProject/Справка/*.hhp
+DocProject/Справка/Html2
+DocProject/Справка/html
+
+# Каталог Click-Once
+издавать/
+
+# Публикация выходных данных в Интернете
+*. Publish.xml
+
+# Выходные данные сборки Windows Azure
+КСХ
+*.build.csdef (файл .build.csdef)
+
+# Каталог пакетов приложений Магазина Windows
+AppPackages (Пакеты приложений)/
+
+# Другие
+*. Тайник
+КлиентБин/
+[С.С.] tyle[Cc]op.*
+~$*
+*~
+*DBMDL
+*См.[стр.] ublish.xml
+*PFX-файл
+*.publishsettings
+Modulesbin/
+tempbin/
+
+# Файл сайта EPiServer (VPP)
+AppData/
+
+# Проекты RIA/Silverlight
+Generated_Code/
+
+# Резервное копирование файлов и создание отчетов при преобразовании старого файла проекта в новый
+# Версия Visual Studio. Файлы резервных копий не нужны, потому что у нас есть git ;-)
+_UpgradeReport_Files/
+Резервная копия*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# vim
+*.txt~
+*SWP-файл
+*Домен .swo
+
+# Временные файлы при открытии LibreOffice в ubuntu
+.~замок.*
+ 
+# svn
+.svn
+
+# CVS - Система управления версиями
+**/CVS/
+
+# Остатки разрешения конфликтов в системе управления версиями
+*.ориг
+
+# Файлы SQL Server
+**/App_Data/*.mdf
+**/App_Data/*.ldf
+**/App_Data/*.sdf
+
+
+#Файлы, сгенерированные LightSwitch
+СгенерированныеАртефакты/
+_Pvt_Extensions/
+ModelManifest.xml
+
+# =========================
+# Мусор Windows
+# =========================
+
+# Кэш файлов образов Windows
+Thumbs.db
+ehthumbs.db
+
+# Конфигурационный файл папки
+Desktop.ini
+
+# Корзина, используемая в общих папках
+$RECYCLE. БУНКЕР/
+
+# Файлы, сгенерированные ОС #
+Икона?
+
+# Файлы хранилища служб настольных компьютеров Mac
+.DS_Store
+
+# Кэш компилятора SASS
+.sass-cache
+
+# CTP-версия Visual Studio 2014
+**/*.sln.ide
+
+# Visual Studio temp что-то
+.vs/
+
+# Материалы о dotnet
+project.lock.json
+
+# VS 2015+
+*.vc.vc.opendb (файл .vc.vc.opendb)
+*.vc.db
+
+# Всадник
+.идея/
+
+# Код Visual Studio
+.vsкод/
+
+# Выходная папка, используемая Webpack или другими вещами FE
+**/node_modules/*
+**/wwwroot/*
+
+# Специфичные для SpecFlow
+*.feature.cs
+*.feature.xlsx.*
+*См. Specs_*.html
+
+# Проекты UWP
+AppPackages (Пакеты приложений)/
+
+#####
+# Конец основного списка исключений, ниже вы можете указать пользовательские настройки для каждого проекта (шаблоны или путь)
+#####
